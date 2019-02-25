@@ -9,9 +9,7 @@ public class Client {
         Scanner in ;
         String letter;
 
-       // String host = "1087";
         try {
-/
             Registry registry = LocateRegistry.getRegistry(1087);
 
             while(true){
